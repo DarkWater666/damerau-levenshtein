@@ -6,7 +6,7 @@ require "damerau-levenshtein/version"
 
 Gem::Specification.new do |s|
   s.required_ruby_version = ">= 2.4"
-  s.name = "damerau-levenshtein"
+  s.name = "damerau-levenstein"
   s.version = DamerauLevenshtein::VERSION
   s.homepage = "https://github.com/DarkWater666/damerau-levenshtein"
   s.authors = ["Dmitry Mozzherin"]
@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.extensions = ["ext/damerau_levenshtein/extconf.rb"]
   s.require_paths = ["lib", "lib/damerau-levenshtein"]
 
-  s.add_development_dependency "activesupport", "~> 6.0"
+  s.add_development_dependency "activesupport", "~> 4.2"
   s.add_development_dependency "bundler", "~> 2.0"
   s.add_development_dependency "coveralls", "~> 0.8"
   s.add_development_dependency "cucumber", "~> 4.1"
@@ -35,4 +35,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rubocop", "~> 0.88"
   s.add_development_dependency "ruby-prof", "~> 1.4"
   s.add_development_dependency "shoulda", "~> 4.0"
+  s.add_development_dependency "solargraph", "~> 0.39"
 end
